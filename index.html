@@ -1,8 +1,126 @@
-<html>
-  <head>
-    <title> Project </title>
-  </head>
-  <body>
-    <h1>OOOOOOOO! TEST PROOOOOOOOOJECT!!!</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- UFT-8-одна из общепринятых кодировок текста -->
+    <meta charset="UTF-8">
+
+    <!-- Размеры и правила масштабирования экрана:
+    атрибут name="viewport" говорит о том, что наш экран "оптимозирован" под разные размеры устройства;
+    content="width=device-width" указывает браузеру, что нужна ширина области просмотра такая же, как и ширина экрана;
+    content="initial-scale=1.0" устанавливает начальный масштаб страницы, в данном случае 1, т.е. 100%. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- http-equiv="X-UA-Compatible" content="ie=edge" отвечает за то, 
+    в какой версии IE должна отображаться веб-страница, в данном случает edge. -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Robotics</title>
+
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./flex.css">
+</head>
+<body>
+  <header class='header'>
+    <div class='container'>
+      <div class="header-row">
+        <div class="header-logo">
+          <img src="./img/logo.png" alt ="robot" class="logo-img">
+          <h2 class="logo-title">Robotics</h2>
+        </div>
+        <nav class="header-menu">
+          <ul class="menu">
+            <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">About</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Products</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="banner-section">
+      <div class="container">
+        <div class="banner-text">
+          <h1 class="title">Products</h1>
+          <div class="banner-description">
+            <a href="#" class="banner-link">Home</a>&#X2192<a href="#" class="banner-link">Products</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="cards-text">
+          <h3 class="cards-title">Featured robotics to play!</h3>
+          <p class="cards-description">Let's play!</p>
+        </div>
+        <div class="cards">
+          <div class="cards-row">
+            <div class="card">
+              <img src="./img/p1.png" alt="robo-product" class="card-img">
+              <div class="card-body">
+                <h4 class="card-title">The Upper Eye</h4>
+                <p class="card-text">Who are in extremly love with eco friendly robot</p>
+                <div class="card-button">
+                  <a href="#" class="card-link">View details</a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./img/p1.png" alt="robo-product" class="card-img">
+              <div class="card-body">
+                <h4 class="card-title">The Upper Eye</h4>
+                <p class="card-text">Who are in extremly love with eco friendly robot</p>
+                <div class="card-button">
+                  <a href="#" class="card-link">View details</a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./img/p1.png" alt="robo-product" class="card-img">
+              <div class="card-body">
+                <h4 class="card-title">The Upper Eye</h4>
+                <p class="card-text">Who are in extremly love with eco friendly robot</p>
+                <div class="card-button">
+                  <a href="#" class="card-link">View details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-row">
+        <div class="search">
+        <p class="copyright">Copyright 2023 ALL rigts reserver by...</p>
+          <div class="footer-search">
+            <input type="text" class="fotter-search-input">
+            <button class="footer-search-button">Subscribe</button>
+          </div>
+          </div>
+          <div class="social-networks">
+            <a href="" class="footer-new">
+              <img src="./img/photo_v.jpg" alt="VK-link" class="footer-logo">
+            </a>
+            <a href="" class="footer-new">
+              <img src="./img/photo_i.jpg" alt="Instagram-link" class="footer-logo">
+            </a>
+            <a href="" class="footer-new">
+              <img src="./img/photo_y.jpg" alt="Youtube-link" class="footer-logo">
+            </a>
+            <a href="" class="footer-new">
+              <img src="./img/photo_f.jpg" alt="Facebook-link" class="footer-logo">
+            </a>
+          </div>
+      </div>          
+      </div>
+
+  </footer>
+
+</body>
+
 </html>
