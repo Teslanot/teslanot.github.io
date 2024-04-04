@@ -69,3 +69,38 @@
     font-weight: bold;
 }
 
+@media screen and (max-width: 850px){
+    .header-menu{
+        display:none;
+    }
+    .header-logo{
+        justify-content: center;
+    }
+    .cards-row{
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        align-items: center;
+    }
+    .card{
+        width: auto;
+    }
+
+    .search, .fotter-search-input, .footer-search-button, .social-networks{
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .fotter-search-input{
+        margin-right: 0;
+    }
+    .footer-row, .footer-search{
+        flex-direction: column;
+    }
+    .social-networks {
+        justify-content: space-around;
+    }
+    .footer {
+        padding: 20px 0;
+    }
+}
+
