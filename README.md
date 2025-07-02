@@ -23,6 +23,6 @@
 ---
 
 🔗 Ссылки
-Сайт: Teslanot.github.io
+Сайт: [teslanot.github.io](https://teslanot.github.io)
 
-GitHub: @Teslanot
+GitHub: [@Teslanot](https://github.com/Teslanot)

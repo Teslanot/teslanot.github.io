@@ -13,11 +13,8 @@ function Footer() {
                         <a href="#" className="text-4xl hover:text-blue-400 transition transform hover:scale-110">
                             <i className="fab fa-telegram"></i>
                         </a>
-                        <a href="#" className="text-4xl hover:text-gray-400 transition transform hover:scale-110">
+                        <a href="https://github.com/Teslanot" className="text-4xl hover:text-gray-600 transition transform hover:scale-110">
                             <i className="fab fa-github"></i>
-                        </a>
-                        <a href="#" className="text-4xl hover:text-blue-600 transition transform hover:scale-110">
-                            <i className="fab fa-linkedin"></i>
                         </a>
                         <a href="#" className="text-4xl hover:text-red-400 transition transform hover:scale-110">
                             <i className="fas fa-envelope"></i>
