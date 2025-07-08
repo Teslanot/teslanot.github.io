@@ -10,15 +10,21 @@ function Footer() {
                     </p>
                     
                     <div className="flex justify-center space-x-6 mb-8">
-                        <a href="#" className="text-4xl hover:text-blue-400 transition transform hover:scale-110">
-                            <i className="fab fa-telegram"></i>
-                        </a>
-                        <a href="https://github.com/Teslanot" className="text-4xl hover:text-gray-600 transition transform hover:scale-110">
-                            <i className="fab fa-github"></i>
-                        </a>
-                        <a href="#" className="text-4xl hover:text-red-400 transition transform hover:scale-110">
-                            <i className="fas fa-envelope"></i>
-                        </a>
+                    <a href="https://t.me/TesDanAleks"
+                        aria-label="Telegram"
+                        class="text-3xl hover:text-blue-400 transition-all duration-300 transform hover:scale-110 hover:shadow-lg">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="https://github.com/Teslanot"
+                        aria-label="GitHub"
+                        class="text-3xl hover:text-gray-400 transition-all duration-300 transform hover:scale-110 hover:shadow-lg">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:daniilaleks8@gmail.com"
+                        aria-label="Email"
+                        class="text-3xl hover:text-red-400 transition-all duration-300 transform hover:scale-110 hover:shadow-lg">
+                        <i class="fas fa-envelope"></i>
+                    </a>
                     </div>
                 </div>
                 

@@ -37,17 +37,17 @@ function Projects() {
                     <div className="glass rounded-2xl p-6 project-card">
                         <div className="text-center mb-4">
                             <i className="fas fa-magic text-4xl text-purple-400 mb-3"></i>
-                            <h3 className="text-xl font-semibold mb-2">Интерактивная анимация</h3>
+                            <h3 className="text-xl font-semibold mb-2">Справочник стран</h3>
                         </div>
                         <p className="text-sm opacity-80 mb-4">
-                            Захватывающая JavaScript анимация с использованием Canvas API и современных веб-технологий для создания визуальных эффектов.
+                            Захватывающая JavaScript анимация с использованием современных веб-технологий для создания визуальных эффектов.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             <span className="px-2 py-1 bg-yellow-600 rounded-full text-xs">JavaScript</span>
                             <span className="px-2 py-1 bg-red-600 rounded-full text-xs">Canvas</span>
                         </div>
                         <button className="w-full py-2 bg-purple-500 rounded-lg hover:bg-purple-400 transition">
-                            Посмотреть
+                            <a href="https://teslanot.github.io/map-project/">Посмотреть</a>
                         </button>
                     </div>
 
