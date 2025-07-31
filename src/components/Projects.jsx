@@ -65,7 +65,7 @@ function Projects() {
                             <span className="px-2 py-1 bg-yellow-600 rounded-full text-xs">JS</span>
                         </div>
                         <button className="w-full py-2 bg-blue-500 rounded-lg hover:bg-blue-400 transition">
-                            Посмотреть
+                            <a href="https://github.com/Teslanot/Adly">Посмотреть</a>
                         </button>
                     </div>
                 </div>
