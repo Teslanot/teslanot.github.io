@@ -40,7 +40,7 @@ function Projects() {
                             <h3 className="text-xl font-semibold mb-2">Справочник стран</h3>
                         </div>
                         <p className="text-sm opacity-80 mb-4">
-                            Захватывающая JavaScript анимация с использованием современных веб-технологий для создания визуальных эффектов.
+                            Красивая удобная веб-энциклопедия стран мира с использованием JavaScript анимацией.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             <span className="px-2 py-1 bg-yellow-600 rounded-full text-xs">JavaScript</span>
@@ -57,15 +57,15 @@ function Projects() {
                             <h3 className="text-xl font-semibold mb-2">Веб-приложение</h3>
                         </div>
                         <p className="text-sm opacity-80 mb-4">
-                            Функциональное веб-приложение с красивыми переходами и анимациями, созданное с акцентом на пользовательский опыт.
+                            Функциональное веб-приложение на Django с удобным интерфейсом, созданный с акцентом на пользовательский опыт.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            <span className="px-2 py-1 bg-blue-600 rounded-full text-xs">HTML</span>
-                            <span className="px-2 py-1 bg-green-600 rounded-full text-xs">CSS</span>
+                            <span className="px-2 py-1 bg-blue-600 rounded-full text-xs">Python</span>
+                            <span className="px-2 py-1 bg-green-600 rounded-full text-xs">Tailwind</span>
                             <span className="px-2 py-1 bg-yellow-600 rounded-full text-xs">JS</span>
                         </div>
                         <button className="w-full py-2 bg-blue-500 rounded-lg hover:bg-blue-400 transition">
-                            Посмотреть
+                            <a href="https://github.com/Teslanot/Adly">Посмотреть</a>
                         </button>
                     </div>
                 </div>

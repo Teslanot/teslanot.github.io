@@ -10,11 +10,6 @@ function Footer() {
                     </p>
                     
                     <div className="flex justify-center space-x-6 mb-8">
-                    <a href="https://t.me/TesDanAleks"
-                        aria-label="Telegram"
-                        class="text-3xl hover:text-blue-400 transition-all duration-300 transform hover:scale-110 hover:shadow-lg">
-                        <i class="fab fa-telegram"></i>
-                    </a>
                     <a href="https://github.com/Teslanot"
                         aria-label="GitHub"
                         class="text-3xl hover:text-gray-400 transition-all duration-300 transform hover:scale-110 hover:shadow-lg">
